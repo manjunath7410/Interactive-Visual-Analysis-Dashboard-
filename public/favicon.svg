@@ -1,0 +1,57 @@
+<svg viewBox="0 0 120 120" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fav-cyan-blue" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="60%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+    <linearGradient id="fav-violet-magenta" x1="85%" y1="15%" x2="15%" y2="85%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="fav-lime-teal" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="60%" stop-color="#A3E635" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+    <radialGradient id="fav-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="35%" stop-color="#00F0FF" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="fav-squircle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18142E" />
+      <stop offset="50%" stop-color="#0E0C1F" />
+      <stop offset="100%" stop-color="#070610" />
+    </linearGradient>
+  </defs>
+  <!-- Background Container for High Contrast Tab Clarity -->
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#fav-squircle)" />
+  <rect x="4.5" y="4.5" width="111" height="111" rx="27.5" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.3" fill="none" />
+
+  <!-- Stream 1: Ascending Growth Trajectory -->
+  <g transform="rotate(-34 60 60)">
+    <ellipse cx="60" cy="60" rx="42" ry="17" fill="none" stroke="url(#fav-cyan-blue)" stroke-width="3.6" stroke-linecap="round" />
+    <circle cx="102" cy="60" r="3.4" fill="#00F0FF" />
+  </g>
+
+  <!-- Stream 2: Cognitive Cross Stream -->
+  <g transform="rotate(38 60 60)">
+    <ellipse cx="60" cy="60" rx="41" ry="17.5" fill="none" stroke="url(#fav-violet-magenta)" stroke-width="3.4" stroke-linecap="round" />
+    <circle cx="101" cy="60" r="3.2" fill="#EC4899" />
+  </g>
+
+  <!-- Stream 3: Equatorial Horizon Discovery Stream -->
+  <g transform="rotate(-84 60 60)">
+    <ellipse cx="60" cy="60" rx="40" ry="16" fill="none" stroke="url(#fav-lime-teal)" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="100" cy="60" r="3.0" fill="#A3E635" />
+  </g>
+
+  <!-- Central Intelligence Node -->
+  <circle cx="60" cy="60" r="13" fill="url(#fav-core)" />
+  <circle cx="60" cy="60" r="8" fill="#0B0A1A" stroke="#00F0FF" stroke-width="2.2" />
+  <circle cx="60" cy="60" r="4.2" fill="#FFFFFF" />
+  <circle cx="60" cy="60" r="1.6" fill="#00F0FF" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "InsightFlow - Interactive Visual Analytics",
+  "description": "Turn data into decisions with interactive visual analytics, dynamic filters, multidimensional charts, data explorer, and intelligent AI insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
